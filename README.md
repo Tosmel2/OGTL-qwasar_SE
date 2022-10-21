@@ -2,16 +2,20 @@
 ***
 
 ## Task
-TODO - What is the problem? And where is the challenge?
+
+# Introduction
+Welcome to the Shell environment quest.?
 
 ## Description
-TODO - How have you solved the problem?
+Learn how to create directories and files with the right
+permissions, to read the listing directory command and to 
+git push all your exercises.
 
 ## Installation
-TODO - How to install your project? npm install? make? make re?
+How to install your project? npm install? make? make re?
 
 ## Usage
-TODO - How does it work?
+How does it work?
 ```
 ./my_project argument1 argument2
 ```
