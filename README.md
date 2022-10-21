@@ -3,7 +3,7 @@
 
 ## Task
 
-# Introduction
+## Introduction
 Welcome to the Shell environment quest.?
 
 ## Description
