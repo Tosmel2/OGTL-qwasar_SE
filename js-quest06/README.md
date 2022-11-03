@@ -13,10 +13,6 @@ What is the problem? And where is the challenge?
 ## Installation
 How to install your project? npm install? make? make re?
 
-## Usage
-```
-./my_project argument1 argument2
-```
 
 ### The Core Team
 
