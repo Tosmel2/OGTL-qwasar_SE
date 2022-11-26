@@ -1,0 +1,29 @@
+<html>
+    <div id="my_box_realtime" style= "background-color: red; position: absolute; right: 70; bottom: 70; min-width: 100px; min-height: 100px"></div>
+    <script type="text/javascript">
+      // YOUR CODE
+
+      var my_box = document.querySelector('#my_box_realtime');
+
+      var newString = setInterval(move, 700);
+      var speedLimit = 350;
+
+      function move() {
+          if(speedLimit == 0) {
+              clearInterval(newString);
+          }
+          speedLimit-=10;
+          my_box.style.right = speedLimit + "px";
+          my_box.style.bottom = speedLimit + "px";
+      }
+    </script>
+</html>
+
+
+<!-- ## Task
+My Moving Box Realtime
+
+## Description
+Complete an index.html file with the missing javascript code in order to move the "div" with the id my_box_realtime to the coordinate of: bottom: 0and right 0 Moving the box must be smooth. It means you will update the position slowly: You can only change the position (vertically and horizontally) of 1 point every 0.5 second.
+
+When we load you html page we should see the box moving diagonally through the screen and it should take 35 seconds to reach its destination. -->
